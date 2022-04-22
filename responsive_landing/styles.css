@@ -33,9 +33,9 @@
         font-size: small;
         width: 40%
     }
-    .heading-4 {
+    /* .heading-4 {
         font-size:medium ;
-        width:40% ;
+        width:40% ; */
     }
     .footer {
         font-size: medium;
@@ -46,10 +46,18 @@
     
     .three-sections {
         font-size: x-large;
+        flex-direction: column;
+        padding-left: 30px;
     }
     .two-sections {
         font-size: x-large;
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-left: 30px;
     } 
+    .box-1 {
+        width: 100%;
+    }
       
  
  }

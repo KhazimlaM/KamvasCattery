@@ -7,6 +7,8 @@
 }
 .images {
     float: left;
+    padding: 0px 10px 0 0;
+    
 }
 .three-sections{
     display: flex;
@@ -24,31 +26,32 @@
     width: 33.33%;
     padding: 20px 20px 0 0;
 }
-.box-2 {
-    width: 50%;
-    padding: 20px 20px 0 0;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-.heading-5 {
-  text-align: right;
-  padding-right: 64%;
-}
-.heading-4 {
-padding-left: 20%;
-}
 
-@media (min-width: 960px) { 
+
+@media (max-width: 82em) { 
     .heading-5 {
         font-size: small;
         width: 40%
     }
     .heading-4 {
-        font-size:small ;
+        font-size:medium ;
         width:40% ;
     }
-}
+    .footer {
+        font-size: medium;
+    }
+    .header {
+        font-size: medium;
+    }
+    
+    .three-sections {
+        font-size: x-large;
+    }
+    .two-sections {
+        font-size: x-large;
+    } 
+      
+ 
+ }
         
-
-
 

@@ -38,7 +38,30 @@
 padding-left: 20%;
 }
 
-
+@media (min-width: 960px) { 
+    .heading-5 {
+        font-size: small;
+        width: 40%
+    }
+    .heading-4 {
+        font-size:small ;
+        width:40% ;
+    }
+    .heading {
+        font-size: small;
+        
+    }
+    .footer {
+        font-size: small;
+    
+    }
+    .header{
+        font-size: small;
+    }
+    .MQ {
+        font-size: small;
+    }
+  }
     
 
 
